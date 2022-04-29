@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1650366004063,
-  "repoUrl": "https://github.com/prisma/prisma",
+  "lastUpdate": 1651255109600,
+  "repoUrl": "https://github.com/danstarns/prisma",
   "entries": {
     "Benchmark.js Benchmark": [
       {
@@ -94897,6 +94897,72 @@ window.BENCHMARK_DATA = {
           {
             "name": ".prisma/client size",
             "value": 41,
+            "range": "±0.00%",
+            "unit": "MB",
+            "extra": "1 samples"
+          },
+          {
+            "name": ".prisma/client/index.d.ts size",
+            "value": 1.7,
+            "range": "±0.00%",
+            "unit": "MB",
+            "extra": "1 samples"
+          },
+          {
+            "name": ".prisma/client/index.js size",
+            "value": 3.1,
+            "range": "±0.00%",
+            "unit": "MB",
+            "extra": "1 samples"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "piotrowski+github@gmail.com",
+            "name": "Jan Piotrowski",
+            "username": "janpio"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "f5f30c4d5caf41477f02655435bb4c379b25f065",
+          "message": "ci: Create Rebase GH Action to be used via `/rebase` in comments (#13086)",
+          "timestamp": "2022-04-29T18:41:11+02:00",
+          "tree_id": "ed1772c4bf6ad963c48037cd1e4dc53a1e35ac84",
+          "url": "https://github.com/danstarns/prisma/commit/f5f30c4d5caf41477f02655435bb4c379b25f065"
+        },
+        "date": 1651255104515,
+        "tool": "benchmarkjs",
+        "benches": [
+          {
+            "name": "client generation ~50 Models",
+            "value": 0.5,
+            "range": "±4.99%",
+            "unit": "ops/sec",
+            "extra": "7 samples"
+          },
+          {
+            "name": "typescript compilation ~50 Models",
+            "value": 0.12,
+            "range": "±3.74%",
+            "unit": "ops/sec",
+            "extra": "5 samples"
+          },
+          {
+            "name": "@prisma/client size",
+            "value": 8.4,
+            "range": "±0.00%",
+            "unit": "MB",
+            "extra": "1 samples"
+          },
+          {
+            "name": ".prisma/client size",
+            "value": 45,
             "range": "±0.00%",
             "unit": "MB",
             "extra": "1 samples"
