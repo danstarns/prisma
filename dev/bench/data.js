@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1651255109600,
+  "lastUpdate": 1651612405014,
   "repoUrl": "https://github.com/danstarns/prisma",
   "entries": {
     "Benchmark.js Benchmark": [
@@ -94950,6 +94950,72 @@ window.BENCHMARK_DATA = {
             "name": "typescript compilation ~50 Models",
             "value": 0.12,
             "range": "±3.74%",
+            "unit": "ops/sec",
+            "extra": "5 samples"
+          },
+          {
+            "name": "@prisma/client size",
+            "value": 8.4,
+            "range": "±0.00%",
+            "unit": "MB",
+            "extra": "1 samples"
+          },
+          {
+            "name": ".prisma/client size",
+            "value": 45,
+            "range": "±0.00%",
+            "unit": "MB",
+            "extra": "1 samples"
+          },
+          {
+            "name": ".prisma/client/index.d.ts size",
+            "value": 1.7,
+            "range": "±0.00%",
+            "unit": "MB",
+            "extra": "1 samples"
+          },
+          {
+            "name": ".prisma/client/index.js size",
+            "value": 3.1,
+            "range": "±0.00%",
+            "unit": "MB",
+            "extra": "1 samples"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "52275815+prisma-bot@users.noreply.github.com",
+            "name": "Prismo",
+            "username": "prisma-bot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "a64784f17e4365588c72822170b32c36cf1ea1f5",
+          "message": "chore(deps): update engines to 3.14.0-15.8195e4e838b2c6d535ad38a39d010665acdb5ab2 (#13129)",
+          "timestamp": "2022-05-03T18:05:45+02:00",
+          "tree_id": "93b8fc16f2454ba168c870886924936d7a9fc66a",
+          "url": "https://github.com/danstarns/prisma/commit/a64784f17e4365588c72822170b32c36cf1ea1f5"
+        },
+        "date": 1651612398825,
+        "tool": "benchmarkjs",
+        "benches": [
+          {
+            "name": "client generation ~50 Models",
+            "value": 0.43,
+            "range": "±5.34%",
+            "unit": "ops/sec",
+            "extra": "7 samples"
+          },
+          {
+            "name": "typescript compilation ~50 Models",
+            "value": 0.11,
+            "range": "±2.53%",
             "unit": "ops/sec",
             "extra": "5 samples"
           },
